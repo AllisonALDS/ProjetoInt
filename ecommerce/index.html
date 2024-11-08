@@ -34,7 +34,7 @@
           <section class="search">
             <input type="search" placeholder="Buscar">
           </section>
-          <li><i class="bi bi-cart-fill"></i></li>
+          <li><a href="checkout.html"><i class="bi bi-cart-fill"></i></a></li>
           <li><i class="bi bi-person-fill"></i></li>
         </ul>
       </nav>
@@ -58,8 +58,6 @@
         <div class="btn">
           <p>R$259,99</p>
           <!-- Botão que chama a função verProduto com os detalhes do produto -->
-          <button
-            onclick="verProduto('images/Produtos/Produto1/pngwing.com.png', 259.99, 'images/Produtos/Produto1/pngwing.com.png', 'images/Produtos/Produto1/chuteira2.webp', 'images/Produtos/Produto1/chuteira3.webp', 'Nike')">ADQUIRIR</button>
         </div>
         <!-- Ícones de redes sociais para compartilhar ou seguir -->
         <div class="icons">
@@ -87,8 +85,39 @@
         <div class="title">
           <h1>Produtos Em Destaque</h1>
         </div>
-        <section>
+        <section class="container-carro">
+
+          <button class="prev">
+            <i class="bi bi-chevron-double-left"></i>
+          </button>
+
           <section id="section-1" class="section-product-carrousel">
+            <div class="carrousel">
+              <!-- AREA RESERVADA PARA INSERCAO DOS CARDS DE PRODUTOS - NAO EXCLUIR -->
+            </div>
+          </section>
+
+          <button class="next">
+            <i class="bi bi-chevron-double-right"></i>
+          </button>
+
+        </section>
+      </div>
+
+      
+      <section class="banner" >
+        <a href=""><img src="images/Banner para loja online de calçados com parcelamentos verde e branco (1).png" alt=""></a>
+      </section>
+
+
+
+      <div class="col-main2">
+        <!-- Título da seção de produtos em destaque -->
+        <div class="title">
+          <h1>Novidades</h1>
+        </div>
+        <section>
+          <section id="section-2" class="section-product-carrousel">
             <div class="carrousel">
               <!-- AREA RESERVADA PARA INSERCAO DOS CARDS DE PRODUTOS - NAO EXCLUIR -->
             </div>
@@ -99,10 +128,10 @@
       <div class="col-main2">
         <!-- Título da seção de produtos em destaque -->
         <div class="title">
-          <h1>Novidades</h1>
+          <h1>Mais Vendidos</h1>
         </div>
         <section>
-          <section id="section-1" class="section-product-carrousel">
+          <section id="section-3" class="section-product-carrousel">
             <div class="carrousel">
               <!-- AREA RESERVADA PARA INSERCAO DOS CARDS DE PRODUTOS - NAO EXCLUIR -->
             </div>
@@ -114,6 +143,94 @@
 
     </div>
   </main>
+
+  
+  <footer>
+    <div class="col-footer">
+        <div class="top">
+
+            <section class="box-help" id="box-help-1">
+                
+                <section class="title-help" >AJuda</section>
+
+                <nav>
+                    <ul>
+                        <li><a href="">Duvidas</a></li>
+                        <li><a href="">Pedidos</a></li>
+                        <li><a href="">Encontre Seu Tamanho</a></li>
+                        <li><a href="">Devoluções</a></li>
+                        <li><a href="">Pagamentos</a></li>
+                        <li><a href="">Corporativo</a></li>
+                        <li><a href="">Fale Conosco</a></li>
+                    </ul>
+                </nav>
+
+            </section>
+
+            <section class="box-help" id="box-help-2">
+                
+                <section class="title-help">Sobre Nos</section>
+
+                <nav>
+                    <ul>
+                        <li><a href="">Sustentabiliade</a></li>
+                        <li><a href="">Sobre a X</a></li>
+                        <li><a href="">Localização</a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                    </ul>
+                </nav>
+
+            </section>
+
+            <section class="box-help" id="box-help-3">
+        
+                <section class="rede">
+
+                    <p class="title-help">Redes sociais</p>
+
+                    <section class="icons-footer" >
+                        <a href=""><i class="bi bi-instagram" style="color: white;" ></i></a>
+                        <a href=""><i class="bi bi-github" style="color: white;" ></i></a>
+                        <a href=""><i class="bi bi-linkedin" style="color: white;"  ></i></a>
+                    </section>
+
+                </section>
+
+                <section class="payment">
+
+                    <p class="title-help">Formas de Pagamento</p>
+
+                    <section class="icons-footer-card">
+                        <img src="images/card.png" alt="">
+                        <img src="images/visa.png" alt="">
+                        <img src="images/paypal.png" alt="">
+                        <img src="images/icons8-foto-48.png" alt="">
+                    </section>
+                </section>
+            </section>
+
+        </div>
+        <hr>
+        <div class="down">
+            <nav>
+                <ul>
+                    <li><a href="">Brasil</a></li>
+                    <li><a href="">Politica de Privacidade</a></li>
+                    <li><a href="">Termos de Uso</a></li>
+                </ul>
+            </nav>
+            <div class="by">
+                <p>&copy; 2024 X Company. Todos os direitos reservados.</p>
+                <p>Este conteúdo não pode ser reproduzido, distribuído ou alterado sem a autorização expressa do autor.</p>
+                
+            </div>
+
+        </div>
+    </div>
+  </footer>
 
 </body>
 </html>
@@ -137,11 +254,16 @@
 
 
 
-<section id="section-2" class="section-product-carrousel">
-  <div class="carrousel">
-    <!-- AREA RESERVADA PARA INSERCAO DOS CARDS DE PRODUTOS - NAO EXCLUIR -->
-  </div>
-</section>
+
+
+
+<!-- Componente Carrousel de Produtos -->
+
+<!-- Botoes reservados para o carrousel - nao remover -->
+
+
+
+
 
 
 <!-- Componente Carrousel de Produtos -->
@@ -156,26 +278,8 @@
 
 
 
-
-
 <!-- Componente Carrousel de Produtos -->
 
-<!-- Botoes reservados para o carrousel - nao remover -->
-<button class="prev">
-  <i class="bi bi-chevron-double-left"></i>
-</button>
-<button class="next">
-  <i class="bi bi-chevron-double-right"></i>
-</button>
-
-
-
-<!-- Componente Carrousel de Produtos -->
-<section id="section-3" class="section-product-carrousel">
-  <div class="carrousel">
-    <!-- AREA RESERVADA PARA INSERCAO DOS CARDS DE PRODUTOS - NAO EXCLUIR -->
-  </div>
-</section>
 <!-- Botoes reservados para o carrousel - nao remover -->
 <button class="prev">
   <i class="bi bi-chevron-double-left"></i>

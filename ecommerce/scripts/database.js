@@ -142,4 +142,116 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
         classificacaoProduto:"Mais_Vendidos",
         exibirHome: true
     },
+    {
+        codigoProduto:10,
+        tituloProduto:"Furadeira e Parafusadeira Bosch Brushless de Impacto a Bateria 12V 3/8 12V GSB 12V-30", 
+        preco: 300.00, 
+        descricao:"A Parafusadeira e Furadeira de Impacto a Bateria de 3/8 Bosch GSB 12V-30, 12V, possui motor sem escovas de carvão a um preço que você nunca viu! Além disso, vem com sistema inteligente ECP que protege eletronicamente as células da bateria.",
+        imagemProduto: {
+            img1:"./images/products/prod02/img1.png",
+            img2:"./images/products/prod02/img2.png",
+            img3:"./images/products/prod02/img3.png",
+            img4:"./images/products/prod02/img4.png",
+
+        },
+        categoriaProduto: 'Ferramentas',
+        classificacaoProduto:"Novidades",
+        exibirHome: true
+    },
+    {
+        codigoProduto:11,
+        tituloProduto:"Furadeira e Parafusadeira Bosch Brushless de Impacto a Bateria 12V 3/8 12V GSB 12V-30", 
+        preco: 300.00, 
+        descricao:"A Parafusadeira e Furadeira de Impacto a Bateria de 3/8 Bosch GSB 12V-30, 12V, possui motor sem escovas de carvão a um preço que você nunca viu! Além disso, vem com sistema inteligente ECP que protege eletronicamente as células da bateria.",
+        imagemProduto: {
+            img1:"./images/products/prod02/img1.png",
+            img2:"./images/products/prod02/img2.png",
+            img3:"./images/products/prod02/img3.png",
+            img4:"./images/products/prod02/img4.png",
+
+        },
+        categoriaProduto: 'Ferramentas',
+        classificacaoProduto:"Novidades",
+        exibirHome: true
+    },
+    {
+        codigoProduto:12,
+        tituloProduto:"Furadeira e Parafusadeira Bosch Brushless de Impacto a Bateria 12V 3/8 12V GSB 12V-30", 
+        preco: 300.00, 
+        descricao:"A Parafusadeira e Furadeira de Impacto a Bateria de 3/8 Bosch GSB 12V-30, 12V, possui motor sem escovas de carvão a um preço que você nunca viu! Além disso, vem com sistema inteligente ECP que protege eletronicamente as células da bateria.",
+        imagemProduto: {
+            img1:"./images/products/prod02/img1.png",
+            img2:"./images/products/prod02/img2.png",
+            img3:"./images/products/prod02/img3.png",
+            img4:"./images/products/prod02/img4.png",
+
+        },
+        categoriaProduto: 'Ferramentas',
+        classificacaoProduto:"Promocoes",
+        exibirHome: true
+    },
+    {
+        codigoProduto:13,
+        tituloProduto:"Furadeira e Parafusadeira Bosch Brushless de Impacto a Bateria 12V 3/8 12V GSB 12V-30", 
+        preco: 300.00, 
+        descricao:"A Parafusadeira e Furadeira de Impacto a Bateria de 3/8 Bosch GSB 12V-30, 12V, possui motor sem escovas de carvão a um preço que você nunca viu! Além disso, vem com sistema inteligente ECP que protege eletronicamente as células da bateria.",
+        imagemProduto: {
+            img1:"./images/products/prod02/img1.png",
+            img2:"./images/products/prod02/img2.png",
+            img3:"./images/products/prod02/img3.png",
+            img4:"./images/products/prod02/img4.png",
+
+        },
+        categoriaProduto: 'Ferramentas',
+        classificacaoProduto:"Promocoes",
+        exibirHome: true
+    },
+    {
+        codigoProduto:14,
+        tituloProduto:"Furadeira e Parafusadeira Bosch Brushless de Impacto a Bateria 12V 3/8 12V GSB 12V-30", 
+        preco: 300.00, 
+        descricao:"A Parafusadeira e Furadeira de Impacto a Bateria de 3/8 Bosch GSB 12V-30, 12V, possui motor sem escovas de carvão a um preço que você nunca viu! Além disso, vem com sistema inteligente ECP que protege eletronicamente as células da bateria.",
+        imagemProduto: {
+            img1:"./images/products/prod02/img1.png",
+            img2:"./images/products/prod02/img2.png",
+            img3:"./images/products/prod02/img3.png",
+            img4:"./images/products/prod02/img4.png",
+
+        },
+        categoriaProduto: 'Ferramentas',
+        classificacaoProduto:"Promocoes",
+        exibirHome: true
+    },
+    {
+        codigoProduto:15,
+        tituloProduto:"Furadeira e Parafusadeira Bosch Brushless de Impacto a Bateria 12V 3/8 12V GSB 12V-30", 
+        preco: 300.00, 
+        descricao:"A Parafusadeira e Furadeira de Impacto a Bateria de 3/8 Bosch GSB 12V-30, 12V, possui motor sem escovas de carvão a um preço que você nunca viu! Além disso, vem com sistema inteligente ECP que protege eletronicamente as células da bateria.",
+        imagemProduto: {
+            img1:"./images/products/prod02/img1.png",
+            img2:"./images/products/prod02/img2.png",
+            img3:"./images/products/prod02/img3.png",
+            img4:"./images/products/prod02/img4.png",
+
+        },
+        categoriaProduto: 'Ferramentas',
+        classificacaoProduto:"Promocoes",
+        exibirHome: true
+    },
+    {
+        codigoProduto:16,
+        tituloProduto:"Furadeira e Parafusadeira Bosch Brushless de Impacto a Bateria 12V 3/8 12V GSB 12V-30", 
+        preco: 300.00, 
+        descricao:"A Parafusadeira e Furadeira de Impacto a Bateria de 3/8 Bosch GSB 12V-30, 12V, possui motor sem escovas de carvão a um preço que você nunca viu! Além disso, vem com sistema inteligente ECP que protege eletronicamente as células da bateria.",
+        imagemProduto: {
+            img1:"./images/products/prod02/img1.png",
+            img2:"./images/products/prod02/img2.png",
+            img3:"./images/products/prod02/img3.png",
+            img4:"./images/products/prod02/img4.png",
+
+        },
+        categoriaProduto: 'Ferramentas',
+        classificacaoProduto:"Promocoes",
+        exibirHome: true
+    },
 ]
