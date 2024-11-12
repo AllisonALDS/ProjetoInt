@@ -434,6 +434,38 @@
     max-width: 2600px;
 
 
+    .textos{
+        position: absolute;        
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        width: 100%;
+        align-content: center;
+        margin-top: 80px;
+        p{
+            color: white;
+        }
+        .textos1{
+            display: flex;
+            z-index: 2;
+            width: 1200px;
+            height: 200px;
+            position: absolute;        
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: 0 auto;
+
+            font-size: 40px;
+            text-align: center;
+            color: white;
+            font-weight: 700;
+            text-shadow: 1px 2px 1px black;
+        }
+    }
 
     img{
         width: 100%;
@@ -460,9 +492,11 @@
         padding: 20px;
 
         .box{
-            width: 400px;
-            height: 200px;
+            width: 600px;
+            height: 600px;
+            border-radius: 30px;
             background-color: white;
+            box-shadow: 2px 4px 4px 1px rgba(0, 0, 0, 0.214);
             
         } /* Fundo semi-transparente */
     }
