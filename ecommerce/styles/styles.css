@@ -161,7 +161,7 @@
         align-items: center;
         display: flex;
         justify-content: space-around;
-        border-bottom: 1px solid rgba(0, 0, 0, 0.658);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.342);
         .departamentos{
             display: flex;
             padding-right: 30px;
@@ -194,7 +194,6 @@
         }
     }
 }
-
 .col-main {
     margin-top: 100px;
     margin-bottom: 400px;
@@ -440,8 +439,6 @@
         }
     }
 }
-
-
 /*Pag Checkout*/
 
 .container-header-tudo{
