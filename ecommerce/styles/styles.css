@@ -340,7 +340,6 @@
         .title {
             p {
                 font-size: 35px;
-                position: relative;
             }
 
             h2 {
@@ -414,6 +413,7 @@
     width: 100%;
     height: 500px;
     background-color: #111111;
+    box-shadow: 1px 1px 55px 1px black;
     margin-top: 20%;
     display: flex;
     gap: 10px;
@@ -452,6 +452,43 @@
                             color: white;
                         }
                     }
+                }
+            }
+        }
+        .box-help-2{
+            width: 400px;
+            height: 90%;
+            color: white;
+            gap: 30px;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            top: 100px;
+
+            .caixa1{
+                display: flex;
+                gap: 5px;
+                p{
+                    font-size: 17px;
+                    color: white;
+                }
+                input{
+                    width: 20px;
+
+                }
+            }
+            .caixa2{
+                button{
+                    width: 300px;
+                    height: 80px;
+                    background-color: blue;
+                    color: white;
+                    font-size: 23px;
+                    border: none;
+                    cursor: pointer;
+                }
+                button:hover{
+                    background-color: #4040db;
                 }
             }
         }
@@ -519,12 +556,18 @@
             }
             
         }
+        #box-help-6{
+            display: flex;
+            position: relative;
+            align-items: center;
+            justify-content: center;
+            text-align: start;
+            margin-bottom: 120px;
+
+            
+        }
 
         
-    }
-
-    hr{
-        width: 90%;
     }
 
     .down{
@@ -562,7 +605,6 @@
     width: 500px;
 }
 
-
 /*Pag Checkout*/
 
 .container-header-tudo{
@@ -583,9 +625,6 @@
         P{
             color: white;
             font-size: 30px;
-        }
-        hr{
-            width: 500px;
         }
     }
     .search{
@@ -634,7 +673,6 @@
         }
     }
 }
-
 /*Pag PRODUCTS*/
 
 /*About*/
