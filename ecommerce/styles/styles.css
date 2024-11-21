@@ -598,6 +598,9 @@
             }
         }
     }
+    hr{
+        width: 95%;
+    }
 }
 
 /*Personalização dos Card*/
