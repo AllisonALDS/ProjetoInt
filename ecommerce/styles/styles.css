@@ -953,7 +953,33 @@
     }
 }
 
+/*Animação Para Chuteira Principal*/
 
+@keyframes go-back {
+    from {
+        transform: translateX(0px);
+        rotate: 0deg;
+        scale: 100%;
+    }
+
+    to {
+        transform: translateY(20px);
+        rotate: 1deg;
+        scale: 101%;
+    }
+}
+@keyframes nav {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-7px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
 
 
 
