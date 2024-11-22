@@ -150,7 +150,6 @@
     }
 
 }
-
 .col-header{
     .col-ad-header{
         width: 100%;
@@ -170,23 +169,6 @@
         .info2{
             display: flex;
             gap: 50px;
-            .acess{
-
-                a{
-                    display: flex;
-                    align-items: center;
-                    gap: 5px;
-                    i{
-                        color: white;
-    
-                    }
-    
-                    p{
-                        color: white;
-                        font-size: 18px;
-                    }
-                }
-            }
             .suporte{
 
                 a{
@@ -602,7 +584,6 @@
         width: 95%;
     }
 }
-
 /*Personalização dos Card*/
 #produto1, #produto2{
     width: 500px;
@@ -611,10 +592,7 @@
     display: flex;
     align-items: center;
 }
-
-
 /*Pag Checkout*/
-
 .container-header-tudo{
     width: 100%;
     height: 200px;
@@ -681,9 +659,7 @@
         }
     }
 }
-
 /*Pag PRODUCTS*/
-
 .col-main-products{
     margin: 0 auto;
     width: 1440px;
@@ -744,7 +720,6 @@
         }
     }
 }
-
 /*About*/
 .container-main-about{
     display: flex;
@@ -904,7 +879,67 @@
     }
 }
 /*Pag talkToUs*/
+.container-main-talk{
+    display: flex;
+    align-content: center;
+    justify-content: center;
 
+    .cont-talk{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 25%;
+        height: 300px;
+        margin-top: 150px;
+        
+        .tilte-talk{
+            font-size: 25px;
+        }
+        .form{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            width: 100%;
+            align-items: center;
+            margin-bottom: 30px;
+            
+            input{
+                width: 70%;
+                height: 50px;
+                border-radius: 25px;
+                padding-left: 20px;
+                border: 1px solid rgba(0, 0, 0, 0.536);
+            }
+            .mensagem{
+                height: 200px;
+            }
+        }
+        .btn-talk{
+            button{
+                border: none;
+                background-color: blue;
+                width: 130px;
+                height: 50px;
+                color: white;
+                font-weight: 600;
+                cursor: pointer;
+            }
+            button:hover{
+                scale: 102%;
+                background-color: rgb(96, 96, 255);
+                border: 1px solid rgb(12, 13, 63);
+            }
+        }
+    }
+    
+    .background-image{
+        width: 50%;
+        margin-top: 100px;
+        img{
+            width: 100%;
+        }
+    }
+}
 /*Pag ADM*/
 .background-adm{
     background-color: #eeeeee;
@@ -957,9 +992,7 @@
         }
     }
 }
-
 /*Animação Para Chuteira Principal*/
-
 @keyframes go-back {
     from {
         transform: translateX(0px);
