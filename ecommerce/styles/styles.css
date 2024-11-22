@@ -607,6 +607,11 @@
 #produto1, #produto2{
     width: 500px;
 }
+.section-product{
+    display: flex;
+    align-items: center;
+}
+
 
 /*Pag Checkout*/
 
@@ -1176,15 +1181,11 @@
 }
 
 .prev, .next {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: transparent;
-    color: rgb(23, 23, 23);
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
+    height: 50px;
     font-size: 32px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
   }
   
   .prev {

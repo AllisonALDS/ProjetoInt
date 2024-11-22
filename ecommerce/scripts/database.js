@@ -143,6 +143,102 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
         exibirHome: true
     },
     {
+        codigoProduto:9,
+        tituloProduto:"Tênis Downshifter 13 Masculino", 
+        preco: 669.99, 
+        descricao:"A Parafusadeira e Furadeira de Impacto a Bateria de 3/8 Bosch GSB 12V-30, 12V, possui motor sem escovas de carvão a um preço que você nunca viu! Além disso, vem com sistema inteligente ECP que protege eletronicamente as células da bateria.",
+        imagemProduto: {
+            img1:"TENIS/tenis8/img1.png",
+            img2:"TENIS/tenis8/img2.png",
+            img3:"TENIS/tenis8/img3.png",
+            img3:"TENIS/tenis8/img4.png",
+
+        },
+        categoriaProduto: 'Ferramentas',
+        classificacaoProduto:"Mais_Vendidos",
+        exibirHome: true
+    },
+    {
+        codigoProduto:9,
+        tituloProduto:"Tênis Downshifter 13 Masculino", 
+        preco: 669.99, 
+        descricao:"A Parafusadeira e Furadeira de Impacto a Bateria de 3/8 Bosch GSB 12V-30, 12V, possui motor sem escovas de carvão a um preço que você nunca viu! Além disso, vem com sistema inteligente ECP que protege eletronicamente as células da bateria.",
+        imagemProduto: {
+            img1:"TENIS/tenis8/img1.png",
+            img2:"TENIS/tenis8/img2.png",
+            img3:"TENIS/tenis8/img3.png",
+            img3:"TENIS/tenis8/img4.png",
+
+        },
+        categoriaProduto: 'Ferramentas',
+        classificacaoProduto:"Mais_Vendidos",
+        exibirHome: true
+    },
+    {
+        codigoProduto:9,
+        tituloProduto:"Tênis Downshifter 13 Masculino", 
+        preco: 669.99, 
+        descricao:"A Parafusadeira e Furadeira de Impacto a Bateria de 3/8 Bosch GSB 12V-30, 12V, possui motor sem escovas de carvão a um preço que você nunca viu! Além disso, vem com sistema inteligente ECP que protege eletronicamente as células da bateria.",
+        imagemProduto: {
+            img1:"TENIS/tenis8/img1.png",
+            img2:"TENIS/tenis8/img2.png",
+            img3:"TENIS/tenis8/img3.png",
+            img3:"TENIS/tenis8/img4.png",
+
+        },
+        categoriaProduto: 'Ferramentas',
+        classificacaoProduto:"Mais_Vendidos",
+        exibirHome: true
+    },
+    {
+        codigoProduto:9,
+        tituloProduto:"Tênis Downshifter 13 Masculino", 
+        preco: 669.99, 
+        descricao:"A Parafusadeira e Furadeira de Impacto a Bateria de 3/8 Bosch GSB 12V-30, 12V, possui motor sem escovas de carvão a um preço que você nunca viu! Além disso, vem com sistema inteligente ECP que protege eletronicamente as células da bateria.",
+        imagemProduto: {
+            img1:"TENIS/tenis8/img1.png",
+            img2:"TENIS/tenis8/img2.png",
+            img3:"TENIS/tenis8/img3.png",
+            img3:"TENIS/tenis8/img4.png",
+
+        },
+        categoriaProduto: 'Ferramentas',
+        classificacaoProduto:"Mais_Vendidos",
+        exibirHome: true
+    },
+    {
+        codigoProduto:9,
+        tituloProduto:"Tênis Downshifter 13 Masculino", 
+        preco: 669.99, 
+        descricao:"A Parafusadeira e Furadeira de Impacto a Bateria de 3/8 Bosch GSB 12V-30, 12V, possui motor sem escovas de carvão a um preço que você nunca viu! Além disso, vem com sistema inteligente ECP que protege eletronicamente as células da bateria.",
+        imagemProduto: {
+            img1:"TENIS/tenis8/img1.png",
+            img2:"TENIS/tenis8/img2.png",
+            img3:"TENIS/tenis8/img3.png",
+            img3:"TENIS/tenis8/img4.png",
+
+        },
+        categoriaProduto: 'Ferramentas',
+        classificacaoProduto:"Mais_Vendidos",
+        exibirHome: true
+    },
+    {
+        codigoProduto:9,
+        tituloProduto:"Tênis Downshifter 13 Masculino", 
+        preco: 669.99, 
+        descricao:"A Parafusadeira e Furadeira de Impacto a Bateria de 3/8 Bosch GSB 12V-30, 12V, possui motor sem escovas de carvão a um preço que você nunca viu! Além disso, vem com sistema inteligente ECP que protege eletronicamente as células da bateria.",
+        imagemProduto: {
+            img1:"TENIS/tenis8/img1.png",
+            img2:"TENIS/tenis8/img2.png",
+            img3:"TENIS/tenis8/img3.png",
+            img3:"TENIS/tenis8/img4.png",
+
+        },
+        categoriaProduto: 'Ferramentas',
+        classificacaoProduto:"Mais_Vendidos",
+        exibirHome: true
+    },
+    {
         codigoProduto:10,
         tituloProduto:"Tênis Nike Impact 4 Masculino", 
         preco: 715.99, 
