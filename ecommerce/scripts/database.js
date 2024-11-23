@@ -127,118 +127,6 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
         exibirHome: true
     },
     {
-        codigoProduto:9,
-        tituloProduto:"Tênis Downshifter 13 Masculino", 
-        preco: 669.99, 
-        descricao:"A Parafusadeira e Furadeira de Impacto a Bateria de 3/8 Bosch GSB 12V-30, 12V, possui motor sem escovas de carvão a um preço que você nunca viu! Além disso, vem com sistema inteligente ECP que protege eletronicamente as células da bateria.",
-        imagemProduto: {
-            img1:"TENIS/tenis8/img1.png",
-            img2:"TENIS/tenis8/img2.png",
-            img3:"TENIS/tenis8/img3.png",
-            img3:"TENIS/tenis8/img4.png",
-
-        },
-        categoriaProduto: 'Ferramentas',
-        classificacaoProduto:"Mais_Vendidos",
-        exibirHome: true
-    },
-    {
-        codigoProduto:9,
-        tituloProduto:"Tênis Downshifter 13 Masculino", 
-        preco: 669.99, 
-        descricao:"A Parafusadeira e Furadeira de Impacto a Bateria de 3/8 Bosch GSB 12V-30, 12V, possui motor sem escovas de carvão a um preço que você nunca viu! Além disso, vem com sistema inteligente ECP que protege eletronicamente as células da bateria.",
-        imagemProduto: {
-            img1:"TENIS/tenis8/img1.png",
-            img2:"TENIS/tenis8/img2.png",
-            img3:"TENIS/tenis8/img3.png",
-            img3:"TENIS/tenis8/img4.png",
-
-        },
-        categoriaProduto: 'Ferramentas',
-        classificacaoProduto:"Mais_Vendidos",
-        exibirHome: true
-    },
-    {
-        codigoProduto:9,
-        tituloProduto:"Tênis Downshifter 13 Masculino", 
-        preco: 669.99, 
-        descricao:"A Parafusadeira e Furadeira de Impacto a Bateria de 3/8 Bosch GSB 12V-30, 12V, possui motor sem escovas de carvão a um preço que você nunca viu! Além disso, vem com sistema inteligente ECP que protege eletronicamente as células da bateria.",
-        imagemProduto: {
-            img1:"TENIS/tenis8/img1.png",
-            img2:"TENIS/tenis8/img2.png",
-            img3:"TENIS/tenis8/img3.png",
-            img3:"TENIS/tenis8/img4.png",
-
-        },
-        categoriaProduto: 'Ferramentas',
-        classificacaoProduto:"Mais_Vendidos",
-        exibirHome: true
-    },
-    {
-        codigoProduto:9,
-        tituloProduto:"Tênis Downshifter 13 Masculino", 
-        preco: 669.99, 
-        descricao:"A Parafusadeira e Furadeira de Impacto a Bateria de 3/8 Bosch GSB 12V-30, 12V, possui motor sem escovas de carvão a um preço que você nunca viu! Além disso, vem com sistema inteligente ECP que protege eletronicamente as células da bateria.",
-        imagemProduto: {
-            img1:"TENIS/tenis8/img1.png",
-            img2:"TENIS/tenis8/img2.png",
-            img3:"TENIS/tenis8/img3.png",
-            img3:"TENIS/tenis8/img4.png",
-
-        },
-        categoriaProduto: 'Ferramentas',
-        classificacaoProduto:"Mais_Vendidos",
-        exibirHome: true
-    },
-    {
-        codigoProduto:9,
-        tituloProduto:"Tênis Downshifter 13 Masculino", 
-        preco: 669.99, 
-        descricao:"A Parafusadeira e Furadeira de Impacto a Bateria de 3/8 Bosch GSB 12V-30, 12V, possui motor sem escovas de carvão a um preço que você nunca viu! Além disso, vem com sistema inteligente ECP que protege eletronicamente as células da bateria.",
-        imagemProduto: {
-            img1:"TENIS/tenis8/img1.png",
-            img2:"TENIS/tenis8/img2.png",
-            img3:"TENIS/tenis8/img3.png",
-            img3:"TENIS/tenis8/img4.png",
-
-        },
-        categoriaProduto: 'Ferramentas',
-        classificacaoProduto:"Mais_Vendidos",
-        exibirHome: true
-    },
-    {
-        codigoProduto:9,
-        tituloProduto:"Tênis Downshifter 13 Masculino", 
-        preco: 669.99, 
-        descricao:"A Parafusadeira e Furadeira de Impacto a Bateria de 3/8 Bosch GSB 12V-30, 12V, possui motor sem escovas de carvão a um preço que você nunca viu! Além disso, vem com sistema inteligente ECP que protege eletronicamente as células da bateria.",
-        imagemProduto: {
-            img1:"TENIS/tenis8/img1.png",
-            img2:"TENIS/tenis8/img2.png",
-            img3:"TENIS/tenis8/img3.png",
-            img3:"TENIS/tenis8/img4.png",
-
-        },
-        categoriaProduto: 'Ferramentas',
-        classificacaoProduto:"Mais_Vendidos",
-        exibirHome: true
-    },
-    {
-        codigoProduto:9,
-        tituloProduto:"Tênis Downshifter 13 Masculino", 
-        preco: 669.99, 
-        descricao:"A Parafusadeira e Furadeira de Impacto a Bateria de 3/8 Bosch GSB 12V-30, 12V, possui motor sem escovas de carvão a um preço que você nunca viu! Além disso, vem com sistema inteligente ECP que protege eletronicamente as células da bateria.",
-        imagemProduto: {
-            img1:"TENIS/tenis8/img1.png",
-            img2:"TENIS/tenis8/img2.png",
-            img3:"TENIS/tenis8/img3.png",
-            img3:"TENIS/tenis8/img4.png",
-
-        },
-        categoriaProduto: 'Ferramentas',
-        classificacaoProduto:"Mais_Vendidos",
-        exibirHome: true
-    },
-    {
         codigoProduto:10,
         tituloProduto:"Tênis Nike Impact 4 Masculino", 
         preco: 715.99, 
@@ -319,7 +207,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
         exibirHome: true
     },
     {
-        codigoProduto:20,
+        codigoProduto:15,
         tituloProduto:"Tênis Nike Downshifter 13 Feminino", 
         preco: 800.00, 
         descricao:"A Parafusadeira e Furadeira de Impacto a Bateria de 3/8 Bosch GSB 12V-30, 12V, possui motor sem escovas de carvão a um preço que você nunca viu! Além disso, vem com sistema inteligente ECP que protege eletronicamente as células da bateria.",
@@ -333,5 +221,165 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
         categoriaProduto: 'Ferramentas',
         classificacaoProduto:"Promocoes",
         exibirHome: false
+    },
+    {
+        codigoProduto:16,
+        tituloProduto:"Tênis Nike Journey Run Feminino", 
+        preco: 699.00, 
+        descricao:"A Parafusadeira e Furadeira de Impacto a Bateria de 3/8 Bosch GSB 12V-30, 12V, possui motor sem escovas de carvão a um preço que você nunca viu! Além disso, vem com sistema inteligente ECP que protege eletronicamente as células da bateria.",
+        imagemProduto: {
+            img1:"TENIS/tenis14/img1.png",
+            img2:"TENIS/tenis14/img2.png",
+            img3:"TENIS/tenis14/img3.png",
+            img3:"TENIS/tenis14/img4.png",
+
+        },
+        categoriaProduto: 'Ferramentas',
+        classificacaoProduto:"Promocoes",
+        exibirHome: true
+    },
+    {
+        codigoProduto:17,
+        tituloProduto:"Tênis Nike Journey Run Feminino", 
+        preco: 699.00, 
+        descricao:"A Parafusadeira e Furadeira de Impacto a Bateria de 3/8 Bosch GSB 12V-30, 12V, possui motor sem escovas de carvão a um preço que você nunca viu! Além disso, vem com sistema inteligente ECP que protege eletronicamente as células da bateria.",
+        imagemProduto: {
+            img1:"TENIS/tenis15/img1.png",
+            img2:"TENIS/tenis15/img2.png",
+            img3:"TENIS/tenis15/img3.png",
+            img3:"TENIS/tenis15/img4.png",
+
+        },
+        categoriaProduto: 'Ferramentas',
+        classificacaoProduto:"Promocoes",
+        exibirHome: true
+    },
+    {
+        codigoProduto:18,
+        tituloProduto:"Tênis Nike Full Force Lo - Masculino", 
+        preco: 470.00, 
+        descricao:"A Parafusadeira e Furadeira de Impacto a Bateria de 3/8 Bosch GSB 12V-30, 12V, possui motor sem escovas de carvão a um preço que você nunca viu! Além disso, vem com sistema inteligente ECP que protege eletronicamente as células da bateria.",
+        imagemProduto: {
+            img1:"TENIS/tenis16/img1.png",
+            img2:"TENIS/tenis16/img2.png",
+            img3:"TENIS/tenis16/img3.png",
+            img3:"TENIS/tenis16/img4.png",
+
+        },
+        categoriaProduto: 'Ferramentas',
+        classificacaoProduto:"Promocoes",
+        exibirHome: true
+    },
+    {
+        codigoProduto:19,
+        tituloProduto:"Tênis Nike Revolution 7 - Masculino", 
+        preco: 259.00, 
+        descricao:"A Parafusadeira e Furadeira de Impacto a Bateria de 3/8 Bosch GSB 12V-30, 12V, possui motor sem escovas de carvão a um preço que você nunca viu! Além disso, vem com sistema inteligente ECP que protege eletronicamente as células da bateria.",
+        imagemProduto: {
+            img1:"TENIS/tenis17/img1.png",
+            img2:"TENIS/tenis17/img2.png",
+            img3:"TENIS/tenis17/img3.png",
+            img3:"TENIS/tenis17/img4.png",
+
+        },
+        categoriaProduto: 'Ferramentas',
+        classificacaoProduto:"Promocoes",
+        exibirHome: true
+    },
+    {
+        codigoProduto:20,
+        tituloProduto:"Tênis Nike Zoomx Invincible Run FK 3- Masculino", 
+        preco: 989.00, 
+        descricao:"A Parafusadeira e Furadeira de Impacto a Bateria de 3/8 Bosch GSB 12V-30, 12V, possui motor sem escovas de carvão a um preço que você nunca viu! Além disso, vem com sistema inteligente ECP que protege eletronicamente as células da bateria.",
+        imagemProduto: {
+            img1:"TENIS/tenis18/img1.png",
+            img2:"TENIS/tenis18/img2.png",
+            img3:"TENIS/tenis18/img3.png",
+            img3:"TENIS/tenis18/img4.png",
+
+        },
+        categoriaProduto: 'Ferramentas',
+        classificacaoProduto:"Promocoes",
+        exibirHome: true
+    },
+    {
+        codigoProduto:21,
+        tituloProduto:"Tênis Nike Journey Run Feminino", 
+        preco: 459.00, 
+        descricao:"A Parafusadeira e Furadeira de Impacto a Bateria de 3/8 Bosch GSB 12V-30, 12V, possui motor sem escovas de carvão a um preço que você nunca viu! Além disso, vem com sistema inteligente ECP que protege eletronicamente as células da bateria.",
+        imagemProduto: {
+            img1:"TENIS/tenis19/img1.png",
+            img2:"TENIS/tenis19/img2.png",
+            img3:"TENIS/tenis19/img3.png",
+            img3:"TENIS/tenis19/img4.png",
+
+        },
+        categoriaProduto: 'Ferramentas',
+        classificacaoProduto:"Promocoes",
+        exibirHome: true
+    },
+    {
+        codigoProduto:22,
+        tituloProduto:"Tênis Nike Air Max Excee 365 Masculino", 
+        preco: 522.00, 
+        descricao:"A Parafusadeira e Furadeira de Impacto a Bateria de 3/8 Bosch GSB 12V-30, 12V, possui motor sem escovas de carvão a um preço que você nunca viu! Além disso, vem com sistema inteligente ECP que protege eletronicamente as células da bateria.",
+        imagemProduto: {
+            img1:"TENIS/tenis20/img1.png",
+            img2:"TENIS/tenis20/img2.png",
+            img3:"TENIS/tenis20/img3.png",
+            img3:"TENIS/tenis20/img4.png",
+
+        },
+        categoriaProduto: 'Ferramentas',
+        classificacaoProduto:"Promocoes",
+        exibirHome: true
+    },
+    {
+        codigoProduto:23,
+        tituloProduto:"Tênis Nike Air Max 270 - Masculino", 
+        preco: 419.00, 
+        descricao:"A Parafusadeira e Furadeira de Impacto a Bateria de 3/8 Bosch GSB 12V-30, 12V, possui motor sem escovas de carvão a um preço que você nunca viu! Além disso, vem com sistema inteligente ECP que protege eletronicamente as células da bateria.",
+        imagemProduto: {
+            img1:"TENIS/tenis21/img1.png",
+            img2:"TENIS/tenis21/img2.png",
+            img3:"TENIS/tenis21/img3.png",
+            img3:"TENIS/tenis21/img4.png",
+
+        },
+        categoriaProduto: 'Ferramentas',
+        classificacaoProduto:"Promocoes",
+        exibirHome: true
+    },
+    {
+        codigoProduto:24,
+        tituloProduto:"Tênis Nike Air Winflo 10 - Feminino", 
+        preco: 319.00, 
+        descricao:"A Parafusadeira e Furadeira de Impacto a Bateria de 3/8 Bosch GSB 12V-30, 12V, possui motor sem escovas de carvão a um preço que você nunca viu! Além disso, vem com sistema inteligente ECP que protege eletronicamente as células da bateria.",
+        imagemProduto: {
+            img1:"TENIS/tenis22/img1.png",
+            img2:"TENIS/tenis22/img2.png",
+            img3:"TENIS/tenis22/img3.png",
+            img3:"TENIS/tenis22/img4.png",
+
+        },
+        categoriaProduto: 'Ferramentas',
+        classificacaoProduto:"Promocoes",
+        exibirHome: true
+    },
+    {
+        codigoProduto:16,
+        tituloProduto:"Tênis Nike Journey Run Feminino", 
+        preco: 699.00, 
+        descricao:"A Parafusadeira e Furadeira de Impacto a Bateria de 3/8 Bosch GSB 12V-30, 12V, possui motor sem escovas de carvão a um preço que você nunca viu! Além disso, vem com sistema inteligente ECP que protege eletronicamente as células da bateria.",
+        imagemProduto: {
+            img1:"TENIS/tenis15/img1.png",
+            img2:"TENIS/tenis15/img2.png",
+            img3:"TENIS/tenis15/img3.png",
+            img3:"TENIS/tenis15/img4.png",
+
+        },
+        categoriaProduto: 'Ferramentas',
+        classificacaoProduto:"Promocoes",
+        exibirHome: true
     },
 ]
