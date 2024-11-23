@@ -251,7 +251,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
 
         },
         categoriaProduto: 'Ferramentas',
-        classificacaoProduto:"Promocoes",
+        classificacaoProduto:"Mais_Vendidos",
         exibirHome: true
     },
     {
@@ -267,7 +267,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
 
         },
         categoriaProduto: 'Ferramentas',
-        classificacaoProduto:"Promocoes",
+        classificacaoProduto:"Mais_Vendidos",
         exibirHome: true
     },
     {
@@ -283,7 +283,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
 
         },
         categoriaProduto: 'Ferramentas',
-        classificacaoProduto:"Promocoes",
+        classificacaoProduto:"Mais_Vendidos",
         exibirHome: true
     },
     {
@@ -299,7 +299,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
 
         },
         categoriaProduto: 'Ferramentas',
-        classificacaoProduto:"Promocoes",
+        classificacaoProduto:"Mais_Vendidos",
         exibirHome: true
     },
     {
@@ -331,7 +331,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
 
         },
         categoriaProduto: 'Ferramentas',
-        classificacaoProduto:"Promocoes",
+        classificacaoProduto:"Novidades",
         exibirHome: true
     },
     {
@@ -347,7 +347,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
 
         },
         categoriaProduto: 'Ferramentas',
-        classificacaoProduto:"Promocoes",
+        classificacaoProduto:"Novidades",
         exibirHome: true
     },
     {
@@ -363,23 +363,23 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
 
         },
         categoriaProduto: 'Ferramentas',
-        classificacaoProduto:"Promocoes",
+        classificacaoProduto:"Novidades",
         exibirHome: true
     },
     {
-        codigoProduto:16,
-        tituloProduto:"Tênis Nike Journey Run Feminino", 
-        preco: 699.00, 
+        codigoProduto:25,
+        tituloProduto:"Tênis Nike Air Max AP - Masculino", 
+        preco: 559.00, 
         descricao:"A Parafusadeira e Furadeira de Impacto a Bateria de 3/8 Bosch GSB 12V-30, 12V, possui motor sem escovas de carvão a um preço que você nunca viu! Além disso, vem com sistema inteligente ECP que protege eletronicamente as células da bateria.",
         imagemProduto: {
-            img1:"TENIS/tenis15/img1.png",
-            img2:"TENIS/tenis15/img2.png",
-            img3:"TENIS/tenis15/img3.png",
-            img3:"TENIS/tenis15/img4.png",
+            img1:"TENIS/tenis23/img1.png",
+            img2:"TENIS/tenis23/img2.png",
+            img3:"TENIS/tenis23/img3.png",
+            img3:"TENIS/tenis23/img4.png",
 
         },
         categoriaProduto: 'Ferramentas',
-        classificacaoProduto:"Promocoes",
+        classificacaoProduto:"Novidades",
         exibirHome: true
     },
 ]
