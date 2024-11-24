@@ -22,6 +22,12 @@
     .col-main2{
         margin-top: 100px;
         margin-bottom: 100px;
+
+        .segurar-banner{
+            img{
+                width: 100%;
+            }
+        }
     }
 
     .teste{
