@@ -734,10 +734,10 @@
         width: 50%;
         height: 1500px;
         padding: 100px;
-        margin-left: 110px;
+        margin-left: 70px;
         display: flex;
         flex-direction: column;
-        gap: 100px;
+        gap: 50px;
         .info-about1{
             .title{
                 p{
@@ -748,15 +748,34 @@
             }
             p{
                 font-size: 35px;
-                font-weight: 600;
             }
             span{
                 color: blue;
+                font-weight: 600;
             }
         }
         .info-about2{
             p{
                 font-size: 20px;
+            }
+        }
+        .botao{
+            .btn-about{
+                width: 40%;
+                height: 70px;
+                border: none;
+                background-color: blue;
+                color: white;
+                cursor: pointer;
+                font-size: 25px;
+                font-weight: 600;
+            }
+            .btn-about:hover{
+                transition: 1s all;
+                scale: 115%;
+                background-color: rgb(7, 2, 137);
+                border: 1px solid;
+
             }
         }
     }
@@ -770,6 +789,7 @@
         gap: 50px;
         .infor-about3{
             img{
+                width: 80%;
                 border-top-right-radius: 105px;
                 border-end-start-radius: 100px;
             }
