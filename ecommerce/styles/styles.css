@@ -728,6 +728,7 @@
 }
 /*About*/
 .container-main-about{
+    background-color: #eeebe5;
     display: flex;
     justify-content: center;
     .left{
@@ -799,7 +800,7 @@
             }
         }
         .infor-about4{
-            width: 70%;
+            width: 80%;
             height: 500px;
             background-color: #cccccc2f;
             border-radius: 12%;
@@ -904,6 +905,97 @@
         }
     }
 }
+.container-main-about2{
+    background-color: #eeebe5;
+    .box-section{
+        display: flex;
+        height: 400px;
+        width: 80%;
+        margin: 0 auto;
+        align-items: center;
+        gap: 150px;
+        padding-left: 00px;
+        .box-information{
+            width: 40%;
+            height: 200px;
+            background-color: white;
+            border-radius: 50px;
+            
+
+        }
+        .ponto{
+            position: absolute;
+            background-color: rgb(255, 255, 255);
+            width: 50px;
+            height: 50px;
+            border-radius: 100%;
+            left: 49.3%;
+            top: 228%;
+            z-index: 1;
+            align-content: center;
+            .ponto2{
+                background-color: blue;
+                width: 40%;
+                height: 40%;
+                border-radius: 100%;
+                margin: 0 auto;
+            }
+        }
+        
+        .ponto3{
+            position: absolute;
+            background-color: rgb(255, 255, 255);
+            width: 50px;
+            height: 50px;
+            border-radius: 100%;
+            left: 49.3%;
+            top: 276%;
+            z-index: 1;
+            align-content: center;
+            .ponto4{
+                background-color: blue;
+                width: 40%;
+                height: 40%;
+                border-radius: 100%;
+                margin: 0 auto;
+            }
+        }
+
+
+        .line{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            .box-line{
+                width: 30px;
+                height: 30px;
+                border: 1px solid;
+            }
+            hr{
+                border-color: rgb(0, 0, 255);
+                height: 380px;
+                background-color: rgb(255, 0, 0);
+            }
+        }
+        .title-about{
+            width: 20%;
+            height: 60px;
+            border: none;
+            background-color: white;
+            border-radius: 50px;
+            align-items: center;
+            align-content: center;
+            text-align: center;
+            p{
+                font-size: 12px;
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+
+
 /*Pag talkToUs*/
 .container-main-talk{
     .col-contact{
