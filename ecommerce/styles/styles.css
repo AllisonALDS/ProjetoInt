@@ -272,6 +272,9 @@
 
                         span {
                             font-weight: 600;
+                            a{
+                                color: white;
+                            }
                         }
                     }
                 }
@@ -1447,6 +1450,7 @@
                     padding: 18px 35px;
                     background-color: #cfcfcf;
                     border: none;
+                    border-radius: 10px;
                 }
             }
             .btn-login{
@@ -1463,11 +1467,14 @@
                     font-size: 21px;
                     font-weight: 00;
                     border: none;
-                    border-radius: 25px;    
+                    border-radius: px;    
                 }
                 button:hover{
                     background-color: rgba(0, 0, 255, 0.473);
 
+                }
+                p{
+                    text-align: center;
                 }
             }
 
