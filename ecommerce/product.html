@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,10 +10,11 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
   <title>Product</title>
 </head>
+
 <body>
-  
-   
-  
+
+
+
   <header>
     <!-- CONTANER DO HEADER -->
     <section class="col-header">
@@ -51,7 +53,8 @@
             <div class="login">
               <div class="icon2">
                 <i class="bi bi-person-circle"></i>
-                <p><span><a href="Login.html">Entre</a></span> ou <br> <span><a href="register.html">Cadastre-se</a></span> </p>
+                <p><span><a href="Login.html">Entre</a></span> ou <br> <span><a
+                      href="register.html">Cadastre-se</a></span> </p>
               </div>
             </div>
             <!--ICONE DE FAVORITOS DO SITE-->
@@ -101,61 +104,86 @@
     </section>
 
   </header>
-  
+
   <main class="product main-content container">
+    <!-- Contêiner principal da página de produto -->
     <h2 class="product text-container page-title-small" id="product-category"></h2>
+    <!-- Título da categoria do produto -->
     <div class="product text-container" id="product-title">
+      <!-- Contêiner para informações do título do produto -->
       <h4>COD: 12345</h4>
-      <h3 class="product main-text">Furadeira e Parafusadeira a Bateria Smart Bosch com Carregador 10 Bits e Extensor Universal 12V 1/4" GSR 1000 Bivolt</h3>
+      <!-- Código do produto -->
+      <h3 class="product main-text">
+        <!-- Nome completo do produto -->
+        Furadeira e Parafusadeira a Bateria Smart Bosch com Carregador 10 Bits e Extensor
+        Universal 12V 1/4" GSR 1000 Bivolt
+      </h3>
     </div>
+
     <section class="product text-container">
+      <!-- Seção principal contendo os detalhes do produto -->
       <div id="product_page">
+        <!-- Contêiner principal da página -->
         <div class="grid_col_1">
-
-
-         
-
+          <!-- Coluna para imagens ou detalhes adicionais do produto -->
         </div>
 
-
-
-
-
-
-
         <div class="grid_col_2">
-
+          <!-- Coluna para preço, compra e cálculo de frete -->
           <div class="product_price_container">
+            <!-- Contêiner para informações de preço -->
             <h2>R$ 399,00</h2>
-            <h5>Ou em ate 10x sem juros de R$ 39,90 no cartão de credito</h5>
+            <!-- Preço do produto -->
+            <h5>Ou em até 10x sem juros de R$ 39,90 no cartão de crédito</h5>
+            <!-- Informação de parcelamento -->
             <div class="quantity">
+              <!-- Contêiner para quantidade e botão de compra -->
               <input type="number" name="quantity" id="quantity" value="1">
+              <!-- Campo para selecionar a quantidade -->
               <button class="shop_btn">comprar</button>
+              <!-- Botão para adicionar ao carrinho ou finalizar compra -->
             </div>
-            
           </div>
 
           <div class="freight_container">
+            <!-- Contêiner para cálculo de frete -->
             <form action="">
+              <!-- Formulário para calcular o frete -->
               <label for="">Calcule seu frete</label>
-
+              <!-- Rótulo do campo de cálculo -->
               <div class="container-flex">
+                <!-- Contêiner flexível para input e botão -->
                 <input type="text" name="" id="" placeholder="Digite o cep da entrega">
+                <!-- Campo para entrada do CEP -->
                 <button class="freight_ok">ok</button>
+                <!-- Botão para confirmar o cálculo -->
               </div>
-             
-               <p><a href="">Não sei meu cep</a></p> 
-             
+              <p><a href="">Não sei meu cep</a></p>
+              <!-- Link para ajuda com o CEP -->
             </form>
           </div>
 
           <div class="freight_pricing container-flex">
+            <!-- Opção de frete com preço e prazo -->
+            <div class="radio">
+              <input type="radio" name="frete-op" id="">
+              <!-- Opção de seleção para frete -->
+            </div>
+            <div class="pricing">
+              <!-- Informações de preço e prazo -->
+              <h3>R$ 19,00</h3>
+              <p>Entrega em até 7 dias úteis</p>
+            </div>
+          </div>
+
+          <!-- Repetição de opções de frete -->
+          <div class="freight_pricing container-flex">
             <div class="radio">
               <input type="radio" name="frete-op" id="">
             </div>
             <div class="pricing">
               <h3>R$ 19,00</h3>
-              <p>Entrega em até 7 dias uteis</p>
+              <p>Entrega em até 7 dias úteis</p>
             </div>
           </div>
 
@@ -165,7 +193,7 @@
             </div>
             <div class="pricing">
               <h3>R$ 19,00</h3>
-              <p>Entrega em até 7 dias uteis</p>
+              <p>Entrega em até 7 dias úteis</p>
             </div>
           </div>
 
@@ -175,131 +203,117 @@
             </div>
             <div class="pricing">
               <h3>R$ 19,00</h3>
-              <p>Entrega em até 7 dias uteis</p>
+              <p>Entrega em até 7 dias úteis</p>
             </div>
           </div>
-
-          <div class="freight_pricing container-flex">
-            <div class="radio">
-              <input type="radio" name="frete-op" id="">
-            </div>
-            <div class="pricing">
-              <h3>R$ 19,00</h3>
-              <p>Entrega em até 7 dias uteis</p>
-            </div>
-          </div>
-
-
-
         </div>
-
       </div>
-      
     </section>
-
   </main>
-  
+
+
   <footer>
     <!--CONTAINE DO RODAPÉ-->
     <div class="col-footer">
       <!--CONTAINER PARTE DE CIMA DO RODAÉ-->
-        <div class="top">
-          <!--SESSAO DE AJUDA 1-->
-            <section class="box-help" id="box-help-1">
-                <!--TITULO DA SESSAO-->
-                <section class="title-help" >AJuda</section>
+      <div class="top">
+        <!--SESSAO DE AJUDA 1-->
+        <section class="box-help" id="box-help-1">
+          <!--TITULO DA SESSAO-->
+          <section class="title-help">AJuda</section>
 
-                <!--OPÇÕES DE AJUDA SESSAO 1-->
-                <nav>
-                    <ul>
-                        <li><a href="talkToUs.html">Duvidas</a></li>
-                        <li><a href="checkout.html">Pedidos</a></li>
-                        <li><a href="products.html">Encontre Seu Tamanho</a></li>
-                        <li><a href="talkToUs.html">Devoluções</a></li>
-                        <li><a href="payment.html">Pagamentos</a></li>
-                        <li><a href="talkToUs.html">Corporativo</a></li>
-                        <li><a href="talkToUs.html">Fale Conosco</a></li>
-                    </ul>
-                </nav>
+          <!--OPÇÕES DE AJUDA SESSAO 1-->
+          <nav>
+            <ul>
+              <li><a href="talkToUs.html">Duvidas</a></li>
+              <li><a href="checkout.html">Pedidos</a></li>
+              <li><a href="products.html">Encontre Seu Tamanho</a></li>
+              <li><a href="talkToUs.html">Devoluções</a></li>
+              <li><a href="payment.html">Pagamentos</a></li>
+              <li><a href="talkToUs.html">Corporativo</a></li>
+              <li><a href="talkToUs.html">Fale Conosco</a></li>
+            </ul>
+          </nav>
 
+        </section>
+
+        <!--SESSAO DE AJUDA 2-->
+        <section class="box-help" id="box-help-2">
+
+          <section class="title-help">Sobre Nos</section>
+
+          <!--OPÇÕES DE AJUDA SESSAO 2-->
+          <nav>
+            <ul>
+              <li><a href="">Sustentabiliade</a></li>
+              <li><a href="about.html">Sobre a Dynasty</a></li>
+              <li><a href="">Localização</a></li>
+              <li><a href=""></a></li>
+              <li><a href=""></a></li>
+              <li><a href=""></a></li>
+            </ul>
+          </nav>
+
+        </section>
+
+        <!--SESSAO DE AJUDA 3-->
+        <section class="box-help" id="box-help-3">
+
+          <!--SESSAO DE REDES SOCIAIS-->
+          <section class="rede">
+
+            <p class="title-help">Redes sociais</p>
+
+            <!--SESSOES DE ICONES REDES SOCIAIS-->
+            <section class="icons-footer">
+              <a href=""><i class="bi bi-instagram" style="color: white;"></i></a>
+              <a href=""><i class="bi bi-github" style="color: white;"></i></a>
+              <a href=""><i class="bi bi-linkedin" style="color: white;"></i></a>
             </section>
 
-            <!--SESSAO DE AJUDA 2-->
-            <section class="box-help" id="box-help-2">
-                
-                <section class="title-help">Sobre Nos</section>
+          </section>
+          <!--SESSOES DE FORMAS DE PAGAMENTO-->
+          <section class="payment">
+            <!--TITULO SESSAO DE PAGAMENTO-->
+            <p class="title-help">Formas de Pagamento</p>
 
-                <!--OPÇÕES DE AJUDA SESSAO 2-->
-                <nav>
-                    <ul>
-                        <li><a href="">Sustentabiliade</a></li>
-                        <li><a href="about.html">Sobre a Dynasty</a></li>
-                        <li><a href="">Localização</a></li>
-                        <li><a href=""></a></li>
-                        <li><a href=""></a></li>
-                        <li><a href=""></a></li>
-                    </ul>
-                </nav>
-
+            <!--ICONES DE PAGAMENTOS-->
+            <section class="icons-footer-card">
+              <img src="images/card.png" alt="">
+              <img src="images/visa.png" alt="">
+              <img src="images/paypal.png" alt="">
+              <img src="images/icons8-foto-48.png" alt="">
             </section>
+          </section>
+        </section>
 
-            <!--SESSAO DE AJUDA 3-->
-            <section class="box-help" id="box-help-3">
-              
-              <!--SESSAO DE REDES SOCIAIS-->
-                <section class="rede">
-
-                    <p class="title-help">Redes sociais</p>
-
-                    <!--SESSOES DE ICONES REDES SOCIAIS-->
-                    <section class="icons-footer" >
-                        <a href=""><i class="bi bi-instagram" style="color: white;" ></i></a>
-                        <a href=""><i class="bi bi-github" style="color: white;" ></i></a>
-                        <a href=""><i class="bi bi-linkedin" style="color: white;"  ></i></a>
-                    </section>
-
-                </section>
-                <!--SESSOES DE FORMAS DE PAGAMENTO-->
-                <section class="payment">
-                    <!--TITULO SESSAO DE PAGAMENTO-->
-                    <p class="title-help">Formas de Pagamento</p>
-
-                    <!--ICONES DE PAGAMENTOS-->
-                    <section class="icons-footer-card">
-                        <img src="images/card.png" alt="">
-                        <img src="images/visa.png" alt="">
-                        <img src="images/paypal.png" alt="">
-                        <img src="images/icons8-foto-48.png" alt="">
-                    </section>
-                </section>
-            </section>
+      </div>
+      <hr>
+      <!--PARTE DE BAIXO DO RODAPÉ-->
+      <div class="down">
+        <!--AREA DE NAVEGAÇÃO-->
+        <nav>
+          <ul>
+            <li><a href="">Brasil</a></li>
+            <li><a href="">Politica de Privacidade</a></li>
+            <li><a href="">Termos de Uso</a></li>
+            <li><a href="adm.html">Administrador</a></li>
+          </ul>
+        </nav>
+        <!--DIREITOS AUTORAIS-->
+        <div class="by">
+          <p>&copy; 2024 Dynasty Company. Todos os direitos reservados.</p>
+          <p>Este conteúdo não pode ser reproduzido, distribuído ou alterado sem a autorização expressa do autor.</p>
 
         </div>
-        <hr>
-        <!--PARTE DE BAIXO DO RODAPÉ-->
-        <div class="down">
-          <!--AREA DE NAVEGAÇÃO-->
-            <nav>
-                <ul>
-                    <li><a href="">Brasil</a></li>
-                    <li><a href="">Politica de Privacidade</a></li>
-                    <li><a href="">Termos de Uso</a></li>
-                    <li><a href="adm.html">Administrador</a></li>
-                </ul>
-            </nav>
-            <!--DIREITOS AUTORAIS-->
-            <div class="by">
-                <p>&copy; 2024 Dynasty Company. Todos os direitos reservados.</p>
-                <p>Este conteúdo não pode ser reproduzido, distribuído ou alterado sem a autorização expressa do autor.</p>
-                
-            </div>
 
-        </div>
+      </div>
     </div>
   </footer>
-  
+
 
 </body>
+
 </html>
 
 
@@ -311,8 +325,3 @@
 
 
 <!-- Componente Pagina individual de Produtos -->
-
-
-
-
-    

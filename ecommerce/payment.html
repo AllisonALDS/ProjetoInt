@@ -16,22 +16,27 @@
 
 
   <header>
-    <div class="container-header-tudo">
-
+    <!--CONTAINER DO CARRINHO-->
+    <div class="container-header-check">
+      <!--SEGUNDO CONTAINER-->
       <div class="container-header-checkout">
+        <!--SESSAO LOGO-->
         <div class="logo-checkout">
-          <p>MEU PAGAMENTO</p>
+          <p>BEM-VINDO AO PAGAMENTO</p>
           <hr>
         </div>
         <div class="">
+          <!--BARRA DE PESQUISA-->
           <div class="search">
             <p>CARRINHO</p>
             <input type="search">
           </div>
         </div>
       </div>
+      <!--SESSAO NAVEGAÇÃO-->
       <div class="container-header-checkout2">
         <nav>
+          <!--NAVEGAÇÃO-->
           <ul>
             <a href="index.html">
               <li>Home ></li>
@@ -41,33 +46,39 @@
             </a>
           </ul>
         </nav>
-        <div class="icons">
-          <div class="icons-checkout">
-            <i class="bi bi-heart-fill"></i>
-
-          </div>
-        </div>
       </div>
     </div>
   </header>
 
   <main class="product main-content container">
+    <!-- Seção principal da página de checkout -->
     <div class="product text-container">
+      <!-- Cabeçalho do checkout -->
       <h2 class="main-text">Checkout</h2>
+      <!-- Título principal -->
       <p>Verifique os itens do carrinho e finalize agora</p>
+      <!-- Descrição do processo -->
     </div>
 
     <section class="product text-container">
+      <!-- Contêiner dos elementos do checkout -->
       <div id="billing">
+        <!-- Seção de faturamento e detalhes do cliente -->
         <div class="grid_col_1">
+          <!-- Coluna para entrada de dados -->
           <form action="">
             <h2>Seus Dados:</h2>
+            <!-- Título da seção de dados -->
             <div class="form-fields">
+              <!-- Contêiner geral dos campos do formulário -->
               <Div class="form-field">
                 <label for="e-mail">E-mail</label>
+                <!-- Campo para e-mail -->
                 <input type="e-mail" name="e-mail" id="e-mail" placeholder="e-mail">
               </Div>
+
               <div class="form-group container-flex">
+                <!-- Grupo de campos Nome e Sobrenome -->
                 <Div class="form-field">
                   <label for="name">Nome</label>
                   <input type="text" name="name" id="name" placeholder="Nome">
@@ -79,6 +90,7 @@
               </div>
 
               <div class="form-group container-flex">
+                <!-- Grupo de campos Telefone e CPF -->
                 <Div class="form-field">
                   <label for="phone">Telefone</label>
                   <input type="text" name="phone" id="phone" placeholder="Telefone com DDD">
@@ -88,7 +100,9 @@
                   <input type="text" name="CPF" id="CPF" placeholder="CPF">
                 </Div>
               </div>
+
               <div class="form-group container-flex">
+                <!-- Grupo de campos Logradouro e CEP -->
                 <Div class="form-field">
                   <label for="address">Logradouro</label>
                   <input type="text" name="address" id="address" placeholder="Logradouro">
@@ -99,8 +113,8 @@
                 </Div>
               </div>
 
-
               <div class="form-group container-flex">
+                <!-- Grupo de campos Número, Complemento e Bairro -->
                 <Div class="form-field">
                   <label for="address">Nº</label>
                   <input type="text" name="number" id="number" placeholder="Nº">
@@ -112,11 +126,11 @@
                 <Div class="form-field">
                   <label for="neighborhood">Bairro</label>
                   <input type="text" name="neighborhood" id="neighborhood" placeholder="Bairro">
-                </div>
+                </Div>
               </div>
 
               <div class="form-group container-flex">
-
+                <!-- Grupo de campos Cidade e Estado -->
                 <Div class="form-field">
                   <label for="city">Cidade</label>
                   <input type="text" name="city" id="city" placeholder="Cidade">
@@ -124,6 +138,7 @@
                 <Div class="form-field uf">
                   <label for="state">Estado</label>
                   <select id="estado" name="UF">
+                    <!-- Lista de opções de estados -->
                     <option value="" selected>Selecione...</option>
                     <option value="AC">AC</option>
                     <option value="AL">AL</option>
@@ -154,14 +169,13 @@
                     <option value="TO">TO</option>
                   </select>
                 </Div>
-              </Div>
+              </div>
             </div>
           </form>
-
         </div>
 
         <div class="grid_col_2">
-
+          <!-- Coluna para resumo de pagamento -->
           <div class="total_container container-flex column">
             <div class="total container-flex">
               <h3>SUBTOTAL</h3>
@@ -175,11 +189,13 @@
               <h3>Total</h3>
               <H3>R$ 0.00</H3>
             </div>
-
           </div>
 
           <button class="button checkout_btn">Finalizar</button>
+          <!-- Botão de finalização -->
+
           <form class="container-flex">
+            <!-- Formulário de métodos de pagamento -->
             <div class="pay-method">
               <input type="radio" name="pagamento" id="credito" checked><label for="credito">Crédito</label>
             </div>
@@ -193,24 +209,23 @@
               <input type="radio" name="pagamento" id="bol"><label for="bol">Boleto</label>
             </div>
           </form>
+
           <form class="payment">
+            <!-- Formulário de informações de cartão -->
             <div class="form-field">
               <label for="nome_cartao">Nome no Cartão:</label>
               <input type="text" id="nome_cartao" name="nome_cartao" required>
             </div>
-
             <div class="form-field">
               <label for="numero_cartao">Número do Cartão:</label>
               <input type="text" id="numero_cartao" name="numero_cartao" maxlength="16" required>
             </div>
-
             <div class="card-info">
               <div class="form-field val">
                 <label for="validade_cartao">Validade:</label>
                 <input type="text" id="validade_cartao" name="validade_cartao" placeholder="MM/AA" maxlength="5"
                   required>
               </div>
-
               <div class="form-field cvv">
                 <label for="cvv">CVV:</label>
                 <input type="text" id="cvv" name="cvv" maxlength="3" required>
@@ -222,15 +237,19 @@
     </section>
   </main>
 
-    
-  <footer>
-    <div class="col-footer">
-        <div class="top">
 
+
+  <footer>
+    <!--CONTAINE DO RODAPÉ-->
+    <div class="col-footer">
+      <!--CONTAINER PARTE DE CIMA DO RODAÉ-->
+        <div class="top">
+          <!--SESSAO DE AJUDA 1-->
             <section class="box-help" id="box-help-1">
-                
+                <!--TITULO DA SESSAO-->
                 <section class="title-help" >AJuda</section>
 
+                <!--OPÇÕES DE AJUDA SESSAO 1-->
                 <nav>
                     <ul>
                         <li><a href="talkToUs.html">Duvidas</a></li>
@@ -245,10 +264,12 @@
 
             </section>
 
+            <!--SESSAO DE AJUDA 2-->
             <section class="box-help" id="box-help-2">
                 
                 <section class="title-help">Sobre Nos</section>
 
+                <!--OPÇÕES DE AJUDA SESSAO 2-->
                 <nav>
                     <ul>
                         <li><a href="">Sustentabiliade</a></li>
@@ -262,12 +283,15 @@
 
             </section>
 
+            <!--SESSAO DE AJUDA 3-->
             <section class="box-help" id="box-help-3">
-        
+              
+              <!--SESSAO DE REDES SOCIAIS-->
                 <section class="rede">
 
                     <p class="title-help">Redes sociais</p>
 
+                    <!--SESSOES DE ICONES REDES SOCIAIS-->
                     <section class="icons-footer" >
                         <a href=""><i class="bi bi-instagram" style="color: white;" ></i></a>
                         <a href=""><i class="bi bi-github" style="color: white;" ></i></a>
@@ -275,11 +299,12 @@
                     </section>
 
                 </section>
-
+                <!--SESSOES DE FORMAS DE PAGAMENTO-->
                 <section class="payment">
-
+                    <!--TITULO SESSAO DE PAGAMENTO-->
                     <p class="title-help">Formas de Pagamento</p>
 
+                    <!--ICONES DE PAGAMENTOS-->
                     <section class="icons-footer-card">
                         <img src="images/card.png" alt="">
                         <img src="images/visa.png" alt="">
@@ -291,7 +316,9 @@
 
         </div>
         <hr>
+        <!--PARTE DE BAIXO DO RODAPÉ-->
         <div class="down">
+          <!--AREA DE NAVEGAÇÃO-->
             <nav>
                 <ul>
                     <li><a href="">Brasil</a></li>
@@ -300,6 +327,7 @@
                     <li><a href="adm.html">Administrador</a></li>
                 </ul>
             </nav>
+            <!--DIREITOS AUTORAIS-->
             <div class="by">
                 <p>&copy; 2024 Dynasty Company. Todos os direitos reservados.</p>
                 <p>Este conteúdo não pode ser reproduzido, distribuído ou alterado sem a autorização expressa do autor.</p>

@@ -9,50 +9,76 @@
 </head>
 <body>
     <main>
-        <!--Container Login-->
-        <div class="container-main-login">
-            <!--SESSAO ESQUERDA-->
-            <div class="left-login">
+        <!-- Container principal para a seção de Login -->
+        <section class="container-main-login">
+            
+            <!-- SEÇÃO ESQUERDA -->
+            <aside class="left-login">
+                
+                <!-- Informações e mensagem motivacional -->
                 <div class="info-ad">
-                    <div class="title-ad-princi">
-                        <img src="images/Design sem nome (10).png" alt="">
-                        <p>Welcome Dynasty</p>
-                    </div>
-                    <div class="title-ad-sub">
+                    
+                    <!-- Título principal com imagem e texto de boas-vindas -->
+                    <header class="title-ad-princi">
+                        <img src="images/Design sem nome (10).png" alt="Logo da Dynasty">
+                        <h2>Welcome Dynasty</h2>
+                    </header>
+                    
+                    <!-- Subtítulo com frase motivacional -->
+                    <blockquote class="title-ad-sub">
                         <p>Vencer não é tudo, mas querer vencer sim</p>
-                        <p>@Allison</p>
-                    </div>
+                        <cite>@Allison</cite>
+                    </blockquote>
                 </div>
-            </div>
-            <!--SESSAO DIREITA-->
-            <div class="right-login">
-                <div class="cont-info-login">
-                    <div class="info-login">
-                        <div class="title-login">
-                            <p>Crie sua conta</p>
-                        </div>
+            </aside>
+            
+            <!-- SEÇÃO DIREITA -->
+            <section class="right-login">
+                
+                <!-- Container das informações e formulário de login -->
+                <article class="cont-info-login">
+                    
+                    <!-- Informações iniciais de login -->
+                    <header class="info-login">
+                        
+                        <!-- Título principal da seção -->
+                         <div class="title-login">
+                            <h2 class="title-login">Crie sua conta</h2>
+                         </div>
+                        
+                        <!-- Ícones de redes sociais para login -->
                         <div class="icons-login">
-                            <i class="bi bi-google"></i>
-                            <i class="bi bi-linkedin"></i>
-                            <i class="bi bi-facebook"></i>
+                            <a href="#"><i class="bi bi-google" aria-label="Login com Google"></i></a>
+                            <a href="#"><i class="bi bi-linkedin" aria-label="Login com LinkedIn"></i></a>
+                            <a href="#"><i class="bi bi-facebook" aria-label="Login com Facebook"></i></a>
                         </div>
-                        <div class="sub-title-login">
-                            <p>Ou use seu email para logar: </p>
-                        </div>
-                    </div>
-                    <div class="forms-login">
-                        <input type="text" placeholder="Nome" required>
-                        <input type="email" placeholder="Email" required>
-                        <input type="password" placeholder="Senha" required>
-                    </div>
+                        
+                        <!-- Subtítulo indicando alternativa de login -->
+                         <div class="sub-title-login">
+                            <p class="">Ou use seu email para logar:</p>
+                         </div>
+                    </header>
+                    
+                    <!-- Formulário para criação de conta -->
+                    <form class="forms-login" action="#" method="POST">
+                        <input id="name" type="text" placeholder="Nome" required>
+                        
+                        <input id="email" type="email" placeholder="Email" required>
+                        
+                        <input id="password" type="password" placeholder="Senha" required>
+                    </form>
+                    
+                    <!-- Botões de ação para o usuário -->
                     <div class="btn-login">
                         <button>Registrar</button>
-                        <a href="Login.html"><p>Ja tenho uma conta !</p></a>
+                        <a href="login.html"><p>Ja tenho uma conta !</p></a>
                         <a href="index.html"><p>Voltar</p></a>
                     </div>
-                </div>
-            </div>
-        </div>
+                </article>
+            </section>
+        </section>
     </main>
+    
+    
 </body>
 </html>
